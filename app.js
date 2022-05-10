@@ -1,10 +1,10 @@
 // import functions and grab DOM elements
 import { stadiums } from './stadiums.js';
+import { renderStadiums } from './utils.js';
 
-console.log(stadiums);
-// let state
+const stadiumListElem = document.getElementById('stadiums');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let stadium of stadiums){
+    const stadiumdiv = renderStadiums(stadium);
+    stadiumListElem.append(stadiumdiv);
+}
