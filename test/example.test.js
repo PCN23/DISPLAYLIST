@@ -9,7 +9,7 @@ const test = QUnit.test;
 test('test stadium render function', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<div class="stadium"><h1>Providence Park</h1><img src="./assets/providence.jpg"><p>Providence has a capacity of 26000 people and is in Portland.</p></div>`;
+    const expected = `<div class="stadium"><h1>Providence Park</h1><img src="./assets/providence.jpg"><p>Providence Park has a capacity of 26000 people and is in Portland.</p></div>`;
     
     //Act 
     // Call the function you're testing and set the result to a const

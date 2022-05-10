@@ -1,1 +1,1 @@
-export const stadiums = [{ name:'Providence', capacity: 26000, city: 'Portland' }];
+export const stadiums = [{ name:'Providence Park', capacity: 26000, city: 'Portland', image: './assets/providence.jpg' }];
