@@ -1,5 +1,7 @@
 // import functions and grab DOM elements
+import { stadiums } from './stadiums.js';
 
+console.log(stadiums);
 // let state
 
 // set event listeners 

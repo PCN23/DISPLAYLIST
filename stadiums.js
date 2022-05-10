@@ -1,0 +1,1 @@
+export const stadiums = [{ name:'Providence', capacity: 26000, city: 'Portland' }];
